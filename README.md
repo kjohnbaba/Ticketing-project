@@ -26,23 +26,41 @@ A robust ticketing system inspired by Jira, built with Spring Boot. This applica
 ## 📁 Project Structure
 
 src/
+
 ├── main/
+
 │ └── java/
+
 │ └── com/yourpackage/
+
 │ ├── annotation/ # Custom annotations
+
 │ ├── aspect/ # AOP aspects for cross-cutting concerns
+
 │ ├── config/ # Configuration classes
+
 │ ├── controller/ # REST endpoints
+
 │ │ ├── ProjectController.java
+
 │ │ ├── TaskController.java
+
 │ │ └── UserController.java
+
 │ ├── dto/ # Data Transfer Objects
+
 │ ├── entity/ # JPA entities
+
 │ ├── enums/ # Enum definitions
+
 │ ├── exception/ # Custom exceptions and handlers
+
 │ ├── mapper/ # Entity-DTO mappers
+
 │ ├── repository/ # Data access layer
+
 │ ├── service/ # Business logic layer
+
 │ └── TicketingProjectRestApplication.java
 
 
